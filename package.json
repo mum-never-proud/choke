@@ -1,0 +1,32 @@
+{
+  "name": "choke",
+  "version": "1.0.0",
+  "description": "throttle the number of calls to function",
+  "main": "./src/choke.js",
+  "scripts": {
+    "build": "./node_modules/.bin/grunt",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mum-never-proud/choke.git"
+  },
+  "keywords": [
+    "throttle",
+    "choke",
+    "limit",
+    "javascript",
+    "function"
+  ],
+  "author": "mum-never-proud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mum-never-proud/choke/issues"
+  },
+  "homepage": "https://github.com/mum-never-proud/choke#readme",
+  "devDependencies": {
+    "grunt": "1.0.4",
+    "grunt-contrib-uglify": "4.0.1",
+    "jest": "25.1.0"
+  }
+}
