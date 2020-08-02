@@ -8,7 +8,7 @@
   }
 })(function() {
   var timerID,
-    choke = function(fx, delay) {
+    choke = function(fx, wait) {
       return function(ev) {
         if (typeof fx !== 'function') {
           throw Error('Please provide a valid function');
@@ -20,7 +20,7 @@
         timerID = window.setTimeout(function() {
           fx.call(null, ev);
           timerID = null;
-        }, +delay || 0);
+        }, +wait || 0);
       }
     };
 
