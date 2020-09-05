@@ -2,10 +2,11 @@
   "name": "choke",
   "version": "1.0.0",
   "description": "throttle the number of calls to function",
-  "main": "./src/choke.js",
+  "main": "./dist/choke.min.js",
   "scripts": {
-    "build": "./node_modules/.bin/grunt",
-    "test": "jest"
+    "build": "grunt",
+    "test": "jest",
+    "test-coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
